@@ -52,7 +52,7 @@ const Main = async () => {
     const data = JSON.stringify(nfts);
 
     // Save Data
-    fs.writeFileSync('output/hash-list.json', data);
+    fs.writeFileSync('../output/hash-list.json', data);
     console.log(`Successfully Retrieved and Saved Hash List for CMID ${candyMachineID}`)
 }
 

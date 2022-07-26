@@ -13,7 +13,7 @@
 - CD into project `cd solana-nft-tools`
 - Install Dependencies `yarn install`
 - Execute desired script with `node-ts ${script_name}`
-  - ex: `$ node-ts get_hash_list.ts`
+  - ex: `$ node-ts src/get_hash_list.ts`
 
 ### get_hash_list.ts
 > Get's Hashes for Provided Candy Machine ID
